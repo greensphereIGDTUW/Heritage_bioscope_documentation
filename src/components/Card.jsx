@@ -2,7 +2,7 @@ import React from "react";
 function Card({diversityData}){
    
     return (
-        <>
+        <div className="all-cards">
         {diversityData.map((curElem) => {
             const {id, name,scientificName, category, image, description} = curElem
             return (
@@ -17,10 +17,10 @@ function Card({diversityData}){
                     <h3 className="card-subtitle">{scientificName}</h3>
                 <h2 className="card-title"> {
                     name}</h2>
-                <span className="card-description">
+                <div className="card-description">
                 {
                     description}
-                </span>
+                </div>
                 <img src={
                     image} height="100px" width="100px"/>
                 </div>
@@ -30,7 +30,8 @@ function Card({diversityData}){
             )
         })}
         
-    </>
+    
+    </div>
     )
 }
 export default Card;
