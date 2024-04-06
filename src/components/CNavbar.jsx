@@ -1,31 +1,20 @@
 import React from "react";
-function CNavbar({ filterItem, diversityList }) {
+function CNavbar() {
   return (
     <nav className="navbar">
       <div className="navigation-bar">
         <div className="navbar-logo">
           {/* <img className="nav-logo" src=""/> */}
-          <h1 className="heritage">HeritageBioscope</h1>
+          <a href="https://heritagebioscope.netlify.app/" className="heritage">HeritageBioscope</a>
         </div>
         <div className="navbar-links">
-          <div>Home</div>
-          <div>About Us</div>
-          <div>Blog</div>
-          <div>Community</div>
+          <a href="https://heritagebioscope.netlify.app/Blog" className="navbar-link"> Home</a>
+          <a href="https://heritagebioscope.netlify.app/AboutUs" className="navbar-link">About Us</a>
+          <a href="https://heritagebioscope.netlify.app/Blog" className="navbar-link">Blog</a>
+          <a href="https://heritagebioscope.netlify.app/Community" className="navbar-link">Community</a>
         </div>
       </div>
-      <div className="btn-group">
-        {diversityList.map((curElem) => {
-          return (
-            <button
-              className="btn-group__item"
-              onClick={() => filterItem(curElem)}
-            >
-              {curElem}
-            </button>
-          );
-        })}
-      </div>
+     
     </nav>
   );
 }

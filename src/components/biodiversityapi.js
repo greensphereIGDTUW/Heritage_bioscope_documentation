@@ -6,8 +6,7 @@ const biodiversity = [
     scientificName: "Aureum",
     description:
       "Aurem plants, known for their striking golden foliage, add a touch of vibrant elegance to gardens and indoor spaces",
-    image:
-      "https://drive.google.com/file/d/11wnZ3zjzReeGzpnjPWHtbxKEGqc30CdH/view?usp=drive_link",
+      image: "images/Arrowheadplant.jpg",
   },
   {
     id: 2,
@@ -16,8 +15,7 @@ const biodiversity = [
     scientificName: "Syngonium podophyllum",
     description:
       "Syngonium podophyllum plant, features chameleon-like leaves that change shape as it matures, making it an attractive houseplant with the added benefit of efficient air purification.",
-    image:
-      "https://drive.google.com/file/d/1MGgS53hk_isycdCqto3k-3o26rE178Xz/view?usp=drive_link",
+      image: "images/Arrowheadplant.jpg",
   },
   {
     id: 3,
@@ -26,8 +24,7 @@ const biodiversity = [
     scientificName: "Corypha umbraculifera",
     description:
       "The Corypha umbraculifera plant, holds the record for producing the largest inflorescence in the plant kingdom, with some reaching up to 26 feet (about 8 meters) in height.",
-    image:
-      "https://drive.google.com/file/d/1MEX-xd2MFPGX_SNQ_L7gu8h8aLcQweaQ/view?usp=sharing",
+      image: "images/Arrowheadplant.jpg",
   },
   {
     id: 4,
@@ -387,6 +384,7 @@ const biodiversity = [
     description:
       "Caryota mitis, commonly known as the Fishtail Palm or Clustered Fishtail Palm, is a species of palm native to Southeast Asia and the Indian subcontinent. The Fishtail Palm gets its name from the unique fishtail-shaped leaflets that adorn its fronds, giving it a distinctive appearance.",
     image: "images/Arrowheadplant.jpg",
+    
   },
   {
     id: 40,
@@ -396,7 +394,7 @@ const biodiversity = [
     description:
       "The Mortifera Palmis, also known as the Suicidal palm tree, is a unique species known for its peculiar behavior of shedding its leaves and appearing lifeless during droughts. However, it miraculously rejuvenates with heavy rainfall, symbolizing resilience and rebirth.",
     image:
-      "https://drive.google.com/file/d/1zjq3ny1g2VClE-gQqrOGrmBlFwDCsFru/view?usp=sharing",
+      "https://drive.google.com/file/d/1mx6hrnP3LS4l3YXqSV34wYo0ErPp2Jyn/view?usp=sharing",
   },
   {
     id: 41,

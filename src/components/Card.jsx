@@ -6,7 +6,7 @@ function Card({diversityData}){
         {diversityData.map((curElem) => {
             const {id, name,scientificName, category, image, description} = curElem
             return (
-                <>
+               
                 
                 <div className="card-container" key={id}>
         <div className="card">
@@ -21,13 +21,12 @@ function Card({diversityData}){
                 {
                     description}
                 </div>
-                <img src={
-                    image} height="100px" width="100px"/>
+                <img src={image} height="100px" width="100px"/>
                 </div>
         </div>
     </div>
-    </>
-            )
+    
+             )
         })}
         
     
