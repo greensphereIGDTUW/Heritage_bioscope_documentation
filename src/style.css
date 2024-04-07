@@ -2,82 +2,12 @@
   margin: 0px;
   padding: 0px;
 }
-/*.card-row {
-/*  justify-content: center;
-/*}
-/*.card-container {
-/*  justify-content: space-between;
-/*  margin-bottom: 20px;
-/*}
-/*.all-cards {
-/*  display: flex;
-/*  flex-wrap: wrap;
-/*  gap: 45px;
-/*  width: 100%;
-/*  justify-content: center;
-/*}
-/*.card {
-/*  display: flex;
-/*  flex-wrap: wrap;
-/*  height: auto;
-/*  background-color: #ececcf;
-/*  border: 1px solid #ddd;
-/*  border-radius: 5px;
-/*  box-shadow: 0 4px 8px rgba(230, 222, 222, 0.1);
-/*  overflow: hidden;
-/*  transition: opacity 0.3s ease;
-/*}
-/*.card:hover {
-/*  box-shadow: 0 10px 20px rgba(241, 238, 238, 0.2);
-/*  /* opacity: 0.7; */
-/*}
-/*.card-body {
-/*  padding: 20px;
-/*}
-/*.card-subtitle {
-/*  color: #214137;
-/*  margin: 0 0 10px 0;
-/*  font-weight: bold;
-/*  font-size: 1.5rem;
-/*  position: relative;
-/*  z-index: 1;
-/*  display: none;
-/*}
-/*.card-title {
-/*  margin: 0;
-/*}
-/*.card-description {
-/*  /* display:none; */
-/*  color: #021512;
-/*  font-size: 20px;
-/*  font-family: "Times New Roman", Times, serif;
-/*  width: 270px;
-/*  position: absolute;
-/*  background-color: #bcfc8f;
-/*  border: 1px solid #ccc;
-/*  border-radius: 15px;
-/*  padding: 15px;
-/*  display: none;
-/*  z-index: 1;
-/*}
-/*.card:hover .card-description {
-/*  display: block;
-/*}
-/*.card:hover .card-subtitle {
-/*  display: block;
-/*}
-/*
-/*img {
-/*  width: 300px;
-/*  height: 300px;
-/*  border-radius: 5px;
-/*}
-/*.card:hover img {
-/*  opacity: 0.6;
-/*}
-.navbar {
-  background-color: rgb(118, 207, 118);
-  padding: 20px;
+html,
+body {
+  width: 100%; /* Set the width of the html and body to 100% */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+ /* Hide horizontal scrollbar */
 }
 /* Card Styles */
 
@@ -135,26 +65,37 @@
 .card-subtitle {
   margin-bottom: 15px; /* Added margin bottom for spacing */
   font-size: 1.2rem;
-  color: #555; /* Subtle text color */
+  color: #163020; /* Subtle text color */
 }
 
 .card-description {
   display: none;
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%; /* Adjusted width for better visibility */
   padding: 15px;
-  background-color: lightgreen; /* Semi-transparent white background */
-  border-top: 1px solid #ddd; /* Separating line */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  border-radius: 10px;
+  text-align: center; /* Center align text */
   transition: opacity 0.3s ease;
-  z-index: 1; /* Added transition effect */
+  z-index: 1;
 }
-.card-description p {
-  margin: 0; /* Reset default margin of paragraphs */
-}
+
 .card:hover .card-description {
   display: block;
+}
+
+.card:hover img {
+  filter: blur(4px); /* Apply blur effect when hovering */
+  opacity: 0.8; /* Reduced opacity on hover */
+}
+
+.card-description p {
+  margin: 0; /* Reset default margin of paragraphs */
+  font-weight: bold; /* Apply bold font weight */
+  color: #214137; /* Dark green text color */
 }
 
 img {
@@ -164,9 +105,9 @@ img {
   border-radius: 10px 10px 0 0; /* Rounded corners for the top */
 }
 
-.card:hover img {
-  opacity: 0.8; /* Reduced opacity on hover */
-}
+/*.card:hover img {
+/*  opacity: 0.8; /* Reduced opacity on hover */
+/*}
 
 /* Categories Styles */
 
@@ -179,8 +120,8 @@ img {
 }
 
 .btn-group__item {
-  background-color: #4CAF50; /* Vibrant green color */
-  color: #ffffff;
+  background-color: #163020; /* Vibrant green color */
+  color: #EEF0E5;
   border: none;
   border-radius: 10px;
   padding: 15px 30px; /* Adjusted padding for top and bottom */
@@ -203,98 +144,8 @@ img {
   font-size: 50;
 }
 body {
-  background: linear-gradient(rgb(118, 207, 118), rgb(212, 241, 210));
+  background: linear-gradient(#B6C4B6, #EEF0E5);
 }
-.navigation-bar {
-  height: 60px;
-  width: 100%;
-  background-color: rgb(118, 207, 118);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 25px;
-}
-
-/* Navbar Styles */
-
-.navigation-bar {
-  background-color: #4CAF50; /* Vibrant green color */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
-  padding: 10px 20px; /* Padding adjusted for spacing */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navbar-logo {
-  /* No specific styles for navbar-logo */
-}
-
-.navbar-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-}
-
-.links {
-  margin-left: 30px; /* Adjusted margin for spacing */
-}
-
-.navbar-link {
-  text-decoration: none;
-  color: white;
-  padding: 10px; /* Adjusted padding for link spacing */
-  transition: color 0.2s; /* Smooth transition effect for color change */
-}
-
-.heritage {
-  font-family: "Cormorant Upright";
-  color: rgb(62, 62, 59);
-  font-size: 40px;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-/* Animation for Navbar Links */
-
-.navbar-links a {
-  font-size: larger;
-  font-weight: 500;
-  padding: 20px;
-  cursor: pointer;
-  transition: transform 0.2s; /* Smooth transition effect */
-}
-
-.navbar-links a:hover {
-  color: #7d9e7d; /* Hover color */
-  transform: scale(1.1); /* Scale effect on hover */
-}
-
-/* Media Query for responsiveness */
-
-@media screen and (max-width: 768px) {
-  .navigation-bar {
-    flex-direction: column; /* Change flex direction to column on smaller screens */
-    padding: 20px; /* Increase padding for spacing */
-  }
-
-  .navbar-links {
-    flex-direction: column; /* Change flex direction to column on smaller screens */
-    align-items: flex-start; /* Align items to the start on smaller screens */
-    margin-top: 20px; /* Add margin-top for spacing */
-  }
-
-  .links {
-    margin-left: 0; /* Remove margin on smaller screens */
-  }
-
-  .navbar-links a {
-    padding: 10px 0; /* Adjusted padding for link spacing on smaller screens */
-  }
-}
-
-
 /* Footer Styles */
 
 .footer-content {
@@ -334,7 +185,7 @@ body {
 }
 
 footer {
-  background-color: #4CAF50; /* Vibrant green color */
+  background-color: #dff0e0; /* Vibrant green color */
   color: white; /* Text color */
   display: flex;
   justify-content: center;
@@ -358,6 +209,7 @@ i {
   font-size: 22px;
 }
 .header-container {
+  padding-top: 20px;
   perspective: 1500px;
   text-align: center;
   position: relative;
@@ -382,7 +234,7 @@ i {
   border-right: 3px solid white;
   animation: typing 4s steps(30, end) forwards, blink-caret 0.75s step-end infinite;
   max-width: 100%; /* or adjust to a value that accommodates the entire text */
-  color: black;
+  color: #163020;
   font-size: 4.5rem;
   font-weight: 700;
 }
@@ -432,3 +284,5 @@ i {
     border-radius: 10px;
   }
 }
+
+

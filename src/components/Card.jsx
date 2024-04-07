@@ -4,7 +4,7 @@ function Card({diversityData}){
     return (
         <div className="all-cards">
         {diversityData.map((curElem) => {
-            const {id, name,scientificName, category, image, description} = curElem
+            const {id, Name,scientificName, category, image, description} = curElem
             return (
                
                 
@@ -14,9 +14,8 @@ function Card({diversityData}){
                 {/* <span className="card-number">{id}</span>
                 <span className="card-category">{
                     category}</span> */}
-                    <h3 className="card-subtitle">{scientificName}</h3>
-                <h2 className="card-title"> {
-                    name}</h2>
+                    <h3 className="card-subtitle">{Name}</h3>
+                
                 <div className="card-description">
                 {
                     description}
