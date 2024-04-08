@@ -149,8 +149,8 @@ body {
 /* Footer Styles */
 
 .footer-content {
-  background-color: #4CAF50; /* Vibrant green color */
-  color: white; /* Text color */
+  background-color: #EEEEEE; /* Vibrant green color */
+  color: #627254; /* Text color */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -185,18 +185,19 @@ body {
 }
 
 footer {
-  background-color: #dff0e0; /* Vibrant green color */
-  color: white; /* Text color */
+  background-color: #EEEEEE; /* Vibrant green color */
+  color: #214137; /* Text color */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 20px 4rem;
   margin-top: 40px;
+  
 }
 
 .footer-line {
-  background-color: #357a38; /* Darker green color for footer line */
+  background-color: #DDDDDD; /* Darker green color for footer line */
   text-align: center;
   padding: 10px 0; /* Adjusted padding */
 }
