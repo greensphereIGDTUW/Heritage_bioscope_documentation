@@ -447,7 +447,7 @@ const biodiversity =[
        category: "Plant",
        scientificName: "Caryota mitis",
        description: "Caryota mitis, commonly known as the Fishtail Palm or Clustered Fishtail Palm, is a species of palm native to Southeast Asia and the Indian subcontinent. The Fishtail Palm gets its name from the unique fishtail-shaped leaflets that adorn its fronds, giving it a distinctive appearance.",
-       image: “https://drive.google.com/file/d/135Hhsu9T0wodE27L7C9O2JdScDxUzKXk/view?usp=drivesdk “},
+       image: "https://drive.google.com/file/d/135Hhsu9T0wodE27L7C9O2JdScDxUzKXk/view?usp=drivesdk "},
    
 
 
