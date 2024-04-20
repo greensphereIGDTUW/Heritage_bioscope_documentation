@@ -633,7 +633,7 @@ image: “https://drive.google.com/file/d/13kq01HEWTeYEZmcgqIf8ZRgxetr64m73/view
    Name: "Hibiscus",
    category: "Plant",
    description: "Hibiscus is a genus of flowering plants known for its large, colorful blossoms in shades of red, pink, yellow, and white. These plants feature dark green, lobed leaves and are commonly cultivated for their ornamental beauty in gardens and landscapes worldwide.",
-   image: “https://res.cloudinary.com/dzz0ng826/image/upload/v1713649782/WhatsApp_Image_2024-04-21_at_03.16.28_a3j3zz.jpg"
+   image: “https://drive.google.com/file/d/1tHXW6uo6U65Y9Oec3_315yCuPE8pypox/view?usp=drivesdk"
 }];
 
 
