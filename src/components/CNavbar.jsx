@@ -17,16 +17,19 @@ const Navbar = () => {
         </div>
         <ul className="app__navbar-links">
           <li className="p__opensans">
-            <Link to="/">Home</Link>
+            <Link to="https://heritagebioscope.netlify.app/">Home</Link>
           </li>
           <li className="p__opensans">
-            <Link to="/AboutUs">About Us</Link>
+            <Link to="https://heritagebioscope.netlify.app/AboutUs">About Us</Link>
           </li>
           <li className="p__opensans">
-            <Link to="/Blog">Blog </Link>
+            <Link to="/"> Documentation </Link>
           </li>
           <li className="p__opensans">
-            <Link to="/Community">Community</Link>
+            <Link to="https://heritagebioscope.netlify.app/Blog">Blog </Link>
+          </li>
+          <li className="p__opensans">
+            <Link to="https://heritagebioscope.netlify.app/Community">Community</Link>
           </li>
         </ul>
         <div className="app__navbar-smallscreen">
