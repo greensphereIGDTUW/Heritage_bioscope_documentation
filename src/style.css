@@ -2,6 +2,20 @@
   margin: 0px;
   padding: 0px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --font-base: 'Cormorant Upright', serif;
+  --font-alt: 'Open Sans', sans-serif;
+  
+  --color-golden: #B7DB25;
+  --color-green: #0A2004;
+  --color-gray: #545454;
+  --color-crimson: #F5EFDB;
+  --color-grey: #AAAAAA;
+  --color-white: #FFFFFF;
+}
+
 html,
 body {
   width: 100%; /* Set the width of the html and body to 100% */
@@ -21,6 +35,8 @@ body {
 
 .all-cards {
   display: flex;
+  margin-left: 1.5rem; /* added margins */
+  margin-right: 1.5rem;/* added margins */
   flex-wrap: wrap;
   gap: 30px; /* Reduced gap between cards for a cleaner look */
   justify-content: center;
@@ -32,8 +48,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 400px; /* Set fixed width for cards */
-  height: 240px;
+  width: 380px; /* Set fixed width for cards || changed it from 400->380 to adjust the margins */
+  /* height: 30vh; */
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Added shadow effect */
@@ -50,7 +66,7 @@ body {
 }
 
 .card-body {
-  padding: 20px;
+  padding: 1rem; /* changed to rem terms */
   text-align: center;
 }
 
@@ -113,6 +129,16 @@ img {
 
 /* Categories Styles */
 
+.p__opensans {
+  font-family: var(--font-alt);
+  color: var(--color-white);
+  font-weight: 400; 
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  line-height: 28px;
+  font-size: 16px;
+}
+
 .btn-group {
   display: flex;
   justify-content: center;
@@ -135,7 +161,7 @@ img {
 }
 
 .btn-group__item:hover {
-  background-color: #45a049; /* Darker green color on hover */
+  background-color: #265837; /* Darker green color on hover */
   transform: translateY(-2px); /* Move button slightly up on hover */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Enhanced shadow effect on hover */
 }
@@ -232,11 +258,11 @@ i {
   transform: translate(-50%, -50%);
   white-space: nowrap;
   overflow: hidden;
-  border-right: 3px solid white;
-  animation: typing 4s steps(30, end) forwards, blink-caret 0.75s step-end infinite;
+  border-right: 3px solid #163020; /* changed cursor colour from white to the font colour */
+  animation: typing 4s steps(36, end) forwards, blink-caret 0.75s step-end infinite; /*changed no of steps  */
   max-width: 100%; /* or adjust to a value that accommodates the entire text */
   color: #163020;
-  font-size: 4.5rem;
+  font-size: 4.3rem;  /* changed the font size very slightly to increase margin */
   font-weight: 700;
 }
 
@@ -257,9 +283,9 @@ i {
   display: inline-block;
   width: 10px;
   height: 10px;
-  background-color: white;
+  background-color: #163020; /* changed the color of the fullstop after animation from white to font color */
   margin-left: 5px;
-  animation: blink 1s infinite;
+  animation: blink 2s infinite;/* slowed the animation */
 }
 @keyframes typing {
   0% { width: 0; }

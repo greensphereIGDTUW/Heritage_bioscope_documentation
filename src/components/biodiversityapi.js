@@ -536,15 +536,15 @@ const biodiversity =[
    id: 50,
    Name: "Dog",
    category: "Animal",
-   description: "Dogs are domesticated mammals known for their loyalty, companionship, and versatility. They belong to the Canidae family and have been bred for various purposes, including hunting, herding, guarding, and as pets. Dogs come in a wide range of breeds, sizes, and coat types, and they have a strong bond with with their owners.”,
-image: “https://drive.google.com/file/d/13kq01HEWTeYEZmcgqIf8ZRgxetr64m73/view?usp=drivesdk “"
+   description: "Dogs are domesticated mammals known for their loyalty, companionship, and versatility. They belong to the Canidae family and have been bred for various purposes, including hunting, herding, guarding, and as pets. Dogs come in a wide range of breeds, sizes, and coat types, and they have a strong bond with with their owners.",
+   image: "https://drive.google.com/file/d/13kq01HEWTeYEZmcgqIf8ZRgxetr64m73/view?usp=drivesdk"
 },
 {
    id: 51,
    Name: "Squirrel",
    category: "Animal",
    description: "Squirrels are small to medium-sized rodents found in various habitats worldwide, including forests, parks, and urban areas. They are known for their bushy tails, agility, and tendency to hoard food. Squirrels play important roles in ecosystems as seed dispersers and prey for predators.",
-   image: “https://drive.google.com/file/d/13QuNeYBX3XuzMMkqK0QxaZx4oqPLWanu/view?usp=drivesdk “
+   image: "https://drive.google.com/file/d/13QuNeYBX3XuzMMkqK0QxaZx4oqPLWanu/view?usp=drivesdk"
 },
 {
    id: 52,
@@ -558,8 +558,7 @@ image: “https://drive.google.com/file/d/13kq01HEWTeYEZmcgqIf8ZRgxetr64m73/view
    Name: "Crow",
    category: "Bird",
    description: "Crows are black birds belonging to the Corvidae family, known for their intelligence, adaptability, and loud cawing calls. They are found in various habitats worldwide, including urban areas, forests, and farmlands. Crows are omnivorous and play important roles in ecosystems as scavengers, predators, and seed dispersers.",
-   image: "https://drive.google.com/file/d/14D1216UR6YsCSDVG7UHfPgYhaGxt-i91/view?usp=sharing
-"
+   image: "https://drive.google.com/file/d/14D1216UR6YsCSDVG7UHfPgYhaGxt-i91/view?usp=sharing"
 },
 {
    id: 54,
@@ -633,7 +632,7 @@ image: “https://drive.google.com/file/d/13kq01HEWTeYEZmcgqIf8ZRgxetr64m73/view
    Name: "Hibiscus",
    category: "Plant",
    description: "Hibiscus is a genus of flowering plants known for its large, colorful blossoms in shades of red, pink, yellow, and white. These plants feature dark green, lobed leaves and are commonly cultivated for their ornamental beauty in gardens and landscapes worldwide.",
-   image: “https://drive.google.com/file/d/1tHXW6uo6U65Y9Oec3_315yCuPE8pypox/view?usp=drivesdk"
+   image: "https://drive.google.com/file/d/1tHXW6uo6U65Y9Oec3_315yCuPE8pypox/view?usp=drivesdk"
 }];
 
 
